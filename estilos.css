@@ -1,0 +1,101 @@
+body{
+    /*background-image: url("fondo1.jpg");*/
+    background-color: aqua;
+    color: rgb(red, green, blue);
+}
+header{
+    background-color: blue;
+    border: 15px solid green;
+    color: coral;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+
+}
+h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 15px solid rgb(126, 128, 0);
+    color: chartreuse;
+    background-color: cadetblue;
+    padding: 10px 10px 10px 20px;
+}
+p{
+    text-align: justify;
+    /*background-color: rgb(63, 165, 42);*/
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fotos1{
+    border: 10px solid rgb(228, 231, 9);
+    border-radius: 24px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+/* unvisited link */
+a:link {
+    color: red;
+    background-color: black;
+    padding: 5px;
+    border: 10px solid rgb(231, 9, 113);
+  }
+
+  /* visited link */
+  a:visited {
+    color: rgb(17, 0, 255);
+    
+    background-color: chartreuse;
+    padding: 10px;
+    border: 5px solid black;
+    font-size:  24px;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    background-color: rgb(152, 100, 237);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  .documento{
+    border: 10px solid rgb(228, 231, 9);
+    border-radius: 4px;
+    padding: 15px;
+  }
+  .normal{
+    color: yellow;
+    font-size: 30px;
+  }
+  nav {
+    /*background: #CCCCCC;*/
+    padding: 5px 15px;
+    }
+    nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    font: bold 24px verdana, sans-serif;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 1em;
+      grid-template-rows: minmax(10px auto);
+      padding: 20px;
+    }
+    .container div {
+      background: #eb8634;
+      padding: 1em;
+    }
+    .container div:hover {
+      border: 5px solid rgb(255, 0, 0);
+    }
